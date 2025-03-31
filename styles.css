@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+textarea {
+  resize: none;
+  width: 600px;
+  height: 500px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+pre {
+  width: 600px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 !important;
+  overflow-y: auto;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #da3743;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 35px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+body > h1 {
+  text-align: start;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
