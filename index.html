@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twelve</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="input">
+        <h1>Paste your data below</h1>
+        <textarea id="emailData" placeholder="Encrypted Data"></textarea>
+        <button id="submit" onclick="processData()">Decrypt Data</button>
+      </div>
+      <div class="input">
+        <h1>Your Decoded Data</h1>
+        <pre readonly id="decryptedData" placeholder="Decrypted Data"></pre>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
